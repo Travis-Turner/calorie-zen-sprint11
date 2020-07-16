@@ -12,7 +12,7 @@ function App() {
       <Route path="/">
         <Diary />
       </Route>
-      <Route path="/">
+      <Route path="/tips">
         <Tips />
       </Route>
     </BrowserRouter>
