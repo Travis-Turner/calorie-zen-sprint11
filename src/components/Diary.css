@@ -3,7 +3,7 @@
   font-family: 'Roboto';
 }
 
-.container {
+.diary {
   display: flex;
   justify-content: center;
   font-family: 'Roboto';
@@ -21,7 +21,7 @@
   border-bottom-right-radius: 0;
 }
 
-.container h2 {
+.diary h2 {
   font-weight: normal;
   font-size: 18px;
   line-height: 1.2;
