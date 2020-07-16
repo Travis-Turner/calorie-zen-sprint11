@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
       <Header />
       <Switch>
-        <Route path="/">
+        <Route exact path="/">
           <Diary />
         </Route>
         <Route path="/tips">
