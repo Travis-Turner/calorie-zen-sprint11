@@ -3,7 +3,7 @@ import './Tips.css';
 
 function Tips() {
   return (
-    <div>
+    <div className="tips">
       <p>Pretty soon the user can find some daily tips here!</p>
     </div>
   );
