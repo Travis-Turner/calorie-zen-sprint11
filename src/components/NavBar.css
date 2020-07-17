@@ -16,5 +16,6 @@
 }
 
 .menu__item_active {
-    opacity: .7;
+    font-weight: bold;
+    font-size: 26px;
 }
