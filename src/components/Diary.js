@@ -7,6 +7,10 @@ function Diary() {
     <div className="diary">
       <div className="calories">
         <h2>Energy consumed:</h2>
+        <ul className="calories__list">
+          <li>360</li>
+          <li>120</li>
+        </ul>
       </div>
       <FoodAdder />
     </div>
