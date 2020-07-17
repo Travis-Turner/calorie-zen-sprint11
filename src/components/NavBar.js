@@ -1,11 +1,12 @@
 import React from 'react';
 import './NavBar.css';
+import { NavLink } from 'react-router-dom';
 
 function NavBar() {
   return (
     <nav className="menu">
-      <a className="menu__item menu__item_active" href="#">Home</a>
-      <a className="menu__item" href="#">Tips</a>
+      <NavLink className="menu__item" activeClassName="menu__item_active" to="/">Home</NavLink>
+      <NavLink className="menu__item" activeClassName="menu__item_active" to="/tips">Tips</NavLink>
     </nav>
   );
 }
